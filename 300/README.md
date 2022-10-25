@@ -24,3 +24,25 @@ Now export the JSON:
   }
 }
 ```
+Map
+
+```
+{
+  "id": "road_one_way_arrow_opposite",
+  "type": "symbol",
+  "source": "openmaptiles",
+  "source-layer": "transportation",
+  "minzoom": 15,
+  "filter": ["==", "oneway", -1],
+  "layout": {
+    "icon-image": "arrow",
+    "symbol-placement": "line",
+    "icon-rotate": 180,
+    "visibility": "none"
+  },
+  "paint": {
+    "icon-translate-anchor": "viewport"
+  }
+}
+```
+Viewport
